@@ -68,7 +68,5 @@ for _ in range(10):
     make_dots()
     next_line()
 
-
-
 screen = t.Screen()
 screen.exitonclick()

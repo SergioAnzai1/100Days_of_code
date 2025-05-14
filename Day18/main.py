@@ -12,7 +12,6 @@
 # heroes are't in the python basic package
 # in terminal type "pip install (package_name)"
 
-
 from turtle import Turtle, Screen
 from random import choice
 
@@ -30,7 +29,6 @@ def random_color():
     ]
     color = choice(colors)
     return color
-
 
 tim = Turtle()
 tim.shape("blank")
