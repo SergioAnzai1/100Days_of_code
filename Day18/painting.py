@@ -3,6 +3,7 @@ import random
 
 tim = t.Turtle()
 t.colormode(255)
+
 tim.speed("fastest")
 
 def random_color():    
