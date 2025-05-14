@@ -3,8 +3,6 @@ import random
 
 tim = t.Turtle()
 t.colormode(255)
-tim.shapesize(0.1, 0.1, 0.1)
-tim.pensize(1)
 tim.speed("fastest")
 
 def random_color():    
@@ -43,6 +41,7 @@ def random_color():
     ]
     color = random.choice(colors)
     return color
+
 def go_to_start_position():
 
     tim.back(300)
@@ -60,9 +59,8 @@ def next_line():
     tim.left(90)
     tim.forward(50)
     tim.right(90)
-    
-    
-    
+
+# main code 
 tim.penup()
 go_to_start_position() 
 for _ in range(10):
